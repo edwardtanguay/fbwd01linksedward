@@ -8,7 +8,7 @@ function App() {
 	useEffect(() => {
 		feeds.forEach(feed => {
 			(async () => {
-				const response = await fetch(feed.linksUrl); 
+				const response = await fetch(feed.linksUrl);
 				const tempLinks = await response.json();
 				tempLinks.forEach(tempLink => tempLink.origin = feed.name);
 				setLinks(n => [...n, ...tempLinks]);
@@ -17,7 +17,7 @@ function App() {
 	}, []);
 	return (
 		<div className="App">
-			<h1>Links</h1>
+			<h1>Links Version 2.0</h1>
 			<ul>
 				{links.map((link, index) => {
 					return (
