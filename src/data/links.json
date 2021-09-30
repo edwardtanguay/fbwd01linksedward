@@ -10,5 +10,9 @@
 	{
 		"title": "TUTORIAL: Learn the Basics of React Native",
 		"url": "https://reactnative.dev/docs/tutorial"
+	},
+	{
+		"title": "Fullstack React GraphQL TypeScript Tutorial (Ben)",
+		"url": "https://www.youtube.com/watch?v=I6ypD7qv3Z8"
 	}
 ]
